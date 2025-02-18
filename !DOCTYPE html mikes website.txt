@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Custom PDF Designs</title>
+    <style>
+        body {
+            font-family: 'Garamond', serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5dc;
+            text-align: center;
+        }
+        header {
+            background-color: #4a3f35;
+            color: white;
+            padding: 20px;
+            font-size: 32px;
+            font-weight: bold;
+            border-bottom: 4px solid #8b5a2b;
+        }
+        .container {
+            padding: 20px;
+        }
+        .pdf-item {
+            background: #fff8e1;
+            padding: 15px;
+            margin: 15px auto;
+            width: 90%;
+            max-width: 500px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+            border-radius: 10px;
+            border: 2px solid #8b5a2b;
+        }
+        .btn {
+            display: inline-block;
+            padding: 12px 22px;
+            margin: 10px;
+            background: #8b5a2b;
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+            font-size: 18px;
+            transition: 0.3s;
+        }
+        .btn:hover {
+            background: #654321;
+            transform: scale(1.05);
+        }
+        .customization-tools {
+            background: #eee8aa;
+            padding: 20px;
+            margin: 20px auto;
+            width: 90%;
+            max-width: 600px;
+            border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+            border: 2px solid #8b5a2b;
+        }
+        input, select {
+            width: 95%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 2px solid #8b5a2b;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+        .social-icons {
+            margin-top: 30px;
+            padding: 20px;
+            background: #4a3f35;
+            color: white;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 15px;
+        }
+        .social-icons a {
+            color: white;
+            font-size: 24px;
+            text-decoration: none;
+            padding: 10px;
+        }
+        .social-icons a:hover {
+            color: #d4af37;
+        }
+        .contact-info {
+            background: #eee8aa;
+            padding: 20px;
+            margin-top: 20px;
+            border-top: 2px solid #8b5a2b;
+        }
+        .visuals {
+            padding: 20px;
+            margin: 20px auto;
+            max-width: 800px;
+        }
+        .visuals img {
+            width: 100%;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        }
+        @media (max-width: 600px) {
+            header {
+                font-size: 24px;
+                padding: 15px;
+            }
+            .btn {
+                font-size: 16px;
+                padding: 10px 18px;
+            }
+            .container, .customization-tools, .pdf-item {
+                width: 95%;
+                margin: 10px auto;
+            }
+            .social-icons {
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>📜 My Custom Vintage PDF Designs 📜</header>
+    
+    <div class="visuals">
+        <img src="your-image-url-here.jpg" alt="Elegant Custom PDF Designs">
+    </div>
+    
+    <div class="container">
+        <h2>📂 Download Your Custom PDFs 📂</h2>
+        
+        <div class="customization-tools">
+            <h3>✏️ Customize Your PDF ✏️</h3>
+            <label for="pdf-type">Select PDF Type:</label>
+            <select id="pdf-type">
+                <option>Wedding Planner</option>
+                <option>Inspirational Quotes Pack</option>
+                <option>Minimalist Design Set</option>
+            </select>
+            <label for="color-scheme">Choose Color Scheme:</label>
+            <input type="text" id="color-scheme" placeholder="e.g., Vintage Beige">
+            <label for="text-style">Text Style:</label>
+            <input type="text" id="text-style" placeholder="e.g., Calligraphy">
+            <button class="btn">Apply Customization</button>
+        </div>
+        
+        <div class="pdf-item">
+            <h3>📖 Wedding Planner</h3>
+            <a class="btn" href="#">📥 Download</a>
+            <a class="btn" href="#">💰 Buy Now</a>
+        </div>
+        <div class="pdf-item">
+            <h3>📜 Inspirational Quotes Pack</h3>
+            <a class="btn" href="#">📥 Download</a>
+            <a class="btn" href="#">💰 Buy Now</a>
+        </div>
+        <div class="pdf-item">
+            <h3>📂 Minimalist Design Set</h3>
+            <a class="btn" href="#">📥 Download</a>
+            <a class="btn" href="#">💰 Buy Now</a>
+        </div>
+    </div>
+    
+    <div class="social-icons">
+        <p>Follow Us:</p>
+        <a href="#" target="_blank">📘 Facebook</a>
+        <a href="#" target="_blank">📷 Instagram</a>
+        <a href="#" target="_blank">🐦 Twitter</a>
+        <a href="#" target="_blank">📌 Pinterest</a>
+    </div>
+    
+    <div class="contact-info">
+        <h3>📞 Contact Us</h3>
+        <p>Phone: (123) 456-7890</p>
+        <p>Email: info@custompdfdesigns.com</p>
+        <p>Address: 123 Vintage Lane, Oldtown, OT 45678</p>
+        <p>Business Hours: Mon-Fri: 9 AM - 6 PM | Sat-Sun: 10 AM - 4 PM</p>
+    </div>
+</body>
+</html>
